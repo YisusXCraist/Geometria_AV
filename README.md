@@ -1,20 +1,19 @@
-# Analytic Vectorial Geometry
+#  🧮 Analytic Vectorial Geometry  🚀
 
 This is an open-source Python library for performing operations with vectors in 3-dimensional space. The library provides functions for defining vectors, performing arithmetic operations with vectors (addition, subtraction, scalar multiplication), and computing the dot product and cross product of two vectors.
 
-## Installation
+## Installation 💻
 
 To use this library, you can clone the repository from GitHub:
 
 bash
 git clone https://github.com/username/analytic-vectorial-geometry.git
 
-## Usage
+## Usage 🧐
 
 To use the library in your own Python code, you can import the Vector module:
 
 ```python
-# Your Python code here
 from Vector import Vector
 
 v1 = Vector(1, 2, 3)
@@ -22,51 +21,44 @@ v2 = Vector(4, 5, 6)
 
 ```
 
-## Add two vectors
+## Add two vectors ➕
 ```python
-# Your Python code here
 v3 = v1 + v2
 
 ```
-## Subtract two vectors
+## Subtract two vectors ➖
 ```python
-# Your Python code here
 v4 = v1 - v2
 ```
 
-## Multiply a vector by a scalar
+## Multiply a vector by a scalar ✖️
 ```python
-# Your Python code here
 v5 = v1 * 2
 ```
-## Compute the dot product of two vectors
+## Compute the dot product of two vectors ⚫️
 ```python
-# Your Python code here
 dot_product = v1.dot(v2)
 ```
 
-## Compute the cross product of two vectors
+## Compute the cross product of two vectors ✖️➖✔️
 ```python
-# Your Python code here
 v6 = v1.cross(v2)
 ```
 
-## Testing
+## Testing 🧪
 
 This repository also includes a test suite for the Vector module. To run the tests, you can use the following command:
 
 ```python
-# Your Python code here 
 Tests.py
 ```
 
 The tests include checks for addition, subtraction, scalar multiplication, dot product, and cross product operations. The test suite also includes 3D plots of the vectors, which can be used to visually verify the results of the operations.
 
-## Contributing 
+## Contributing 🤝
 
 Contributions to this library are welcome. To contribute, please fork the repository and submit a pull request with your changes. Be sure to include tests for any new functionality you add.
 
-## License
+## License 📝
 
 This library is licensed under the MIT License. See the LICENSE file for details.
-
